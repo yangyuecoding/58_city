@@ -24,6 +24,7 @@ export default class switchIndex extends Component {
         })
         .catch( rej => {
             console.log(rej);
+            console.log("hello");
         })
     }
     componentDidMount(){
